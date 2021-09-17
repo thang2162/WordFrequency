@@ -17,19 +17,13 @@ WordCounter(String, SortBy).then(res => {
 This returns a sorted object array.
 
 # Usage
-```html
-<!DOCTYPE html>
-<html>
-<script type="module">
-  import {WordCounter} from './WordCounter.js'
+```javascript
+  import {WordFrequency} from '@thang2162/WordFrequency'
   const str = "With great power there must also come -- great responsibility.";
 
   WordFrequency(str, 'asc').then(res => {
     alert(JSON.stringify(res));
   });
-
-</script>
-</html>
 ```  
 # CDN
 ```html
