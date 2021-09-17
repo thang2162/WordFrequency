@@ -1,6 +1,17 @@
 # WordFrequency
 A simple script to count the frequency of words in a string.
 <br />
+# Arguments
+1. String (required) - String to be processed.
+2. SortBy (optional) - 'desc' for descending or 'asc' ascending.
+Example:
+
+WordCounter(String, SortBy).then(res => {
+  alert(JSON.stringify(res));
+});
+
+This returns a sorted object array.
+
 # Usage
 ```html
 <!DOCTYPE html>
@@ -11,13 +22,23 @@ A simple script to count the frequency of words in a string.
 
   WordCounter(str, 'asc').then(res => {
     alert(JSON.stringify(res));
-  })
+  });
 
 </script>
 </html>
 ```  
-<br />
-<br />
-This list was complied using data from: https://www.caffeineinformer.com/the-caffeine-database<br/>
-<br/>
-This list can be fetched using http get at: https://thang2162.github.io/CaffeinatedBeveragesJSON/db.json
+# CDN
+```html
+<!DOCTYPE html>
+<html>
+<script src="https://thang2162.github.io/WordFrequency/WordFrequency.min.js" />
+<script>
+  const str = "With great power there must also come -- great responsibility.";
+
+  WordCounter(str, 'asc').then(res => {
+    alert(JSON.stringify(res));
+  });
+
+</script>
+</html>
+```
