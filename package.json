@@ -1,0 +1,19 @@
+{
+  "name": "@thang2162/wordfrequency",
+  "version": "1.0.0",
+  "description": "A simple script to count the frequency of words in a string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thang2162/WordFrequency.git"
+  },
+  "author": "Tone T. Thangsongcharoen - thang2162 <netguy87@gmail.com> (https://bithatchery.com/)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/thang2162/WordFrequency/issues"
+  },
+  "homepage": "https://github.com/thang2162/WordFrequency#readme"
+}
