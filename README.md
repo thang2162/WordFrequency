@@ -2,9 +2,13 @@
 A simple script to count the frequency of words in a string.
 <br />
 # Installation
-npm install @thang2162/WordFrequency --save
-or <br />
-yarn add @thang2162/WordFrequency
+```
+npm install @thang2162/wordfrequency --save
+```
+or
+```
+yarn add @thang2162/wordfrequency
+```
 # Arguments
 1. String (required) - String to be processed.
 2. SortBy (optional) - 'desc' for descending or 'asc' ascending.
@@ -18,7 +22,7 @@ This returns a sorted object array.
 
 # Usage
 ```javascript
-  import {WordFrequency} from '@thang2162/WordFrequency'
+  import {WordFrequency} from '@thang2162/wordfrequency'
   const str = "With great power there must also come -- great responsibility.";
 
   WordFrequency(str, 'asc').then(res => {

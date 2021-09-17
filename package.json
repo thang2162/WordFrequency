@@ -1,6 +1,6 @@
 {
   "name": "@thang2162/wordfrequency",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple script to count the frequency of words in a string.",
   "main": "index.js",
   "scripts": {
